@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tres Hermanos</title>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="treshermanos.css" rel="stylesheet">
+    <link href="whats.css" rel="stylesheet">
+    <link href="whats2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script  defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+
+<script defer src="./js/tienda.js"></script>
+      
+</head>
+
+
+<body>
+ 
+    <link rel="stylesheet" href="whats.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+ <!-- ---------------------------------------------HEADER------------------------------------------------ -->
+    <SECTIOn class="header">
+        <nav class="navbar" id="barra">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary">Tres Hermanos</h3>
+            </div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">Inicio PRUEBA</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#menu" class="navbar-link">Productos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contacto" class="navbar-link">Contáctanos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#acerca" class="navbar-link">Acerca de</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#menu" class="navbar-link-book">Comprar</a>
+                </li>
+            </ul>
+
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>        
+        </nav>
+<!-- ---------------------------------------------FONDO------------------------------------------------ -->
+        <div class="header-container">
+            <div class="fondo">
+                <img id="fondo" src="Mezcal3.jpg"></img>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">
+                    Mezcal <br> <span id="restaurante">Los Tres Hermanos</span> <br>
+                </h1>
+                <p class="lead-text">Mezcal Artesanal de NAYARIT</p>
+                <a href="#menu" class="book-now">Comprar</a>
+            </div>
+        </div>
+    </SECTIOn>
+<!-- ---------------------------------------------MENÚ------------------------------------------------ -->
+    <section class="menu">
+        <div class="espacio"><a name="menu"></a></div>
+            <div class="menu-heading">Nuestros Productos</div>
+            <div class="menu-grid">
+                <div class="container">
+                   <!-- <div class="items">-->
+                        <div class="menu-hold">
+                            <div class="menu-container">
+                                <div class="col-12 col-md-12">
+                                        <div class="item shadow mb-4">
+                                            <h3 class="item-title heading-tertiary">Petaca</h3>
+                                            <img class="item-image" src="petaca2.jpg">
+                
+                                            <div class="item-details">
+                                                <h4 class="item-price precio">175$</h4>
+                                                <button class="item-button btn btn-primary addToCart" id="hola">+</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                               
+                    <!--</div>-->
+                </div>
+                <div class="container">
+                    <div class="items">
+                        <div class="menu-hold">
+                            <div class="menu-container">
+                                <div class="col-12 col-md-12">
+                                        <div class="item shadow mb-4">
+                                            <h3 class="item-title heading-tertiary">Individual</h3>
+                                            <img class="item-image" src="botella.jpg">
+                
+                                            <div class="item-details">
+                                                <h4 class="item-price precio">1500$</h4>
+                                                <button class="item-button btn btn-primary addToCart" id="hola">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                               
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="items">
+                        <div class="menu-hold">
+                            <div class="menu-container">
+                                <div class="col-12 col-md-12">
+                                        <div class="item shadow mb-4">
+                                            <h3 class="item-title heading-tertiary">Fiesta</h3>
+                                            <img class="item-image" src="botellas.jpg">
+                                            <div class="item-details">
+                                                <h4 class="item-price precio">4300$</h4>
+                                                <button class="btn btn-primary addToCart" id="hola">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                               
+                    </div>
+                </div>
+                <!-- START SECTION SHOPPING CART -->
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center heading-tertiary">CARRITO</h1>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h3>Producto</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h3 class="text-truncate">Precio</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h3>Cantidad</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+
+            <!-- START TOTAL -->
+            <!--   <div class="row"> -->
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0 heading-tertiary">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal heading-tertiary">0$</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-header">
+                                <span>✅</span>
+                                <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="toast-body text-white">
+                                Se aumentó correctamente la cantidad
+                            </div>
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+
+            <!-- END TOTAL -->
+
+            <!-- START MODAL COMPRA -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pronto recibirá su pedido</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODAL COMPRA -->
+        </div>
+    </section>
+    <!-- END SECTION SHOPPING CART -->
+            </div>
+            
+        <!--</div>-->
+        
+    </section>
+    
+
+<!-- ---------------------------------------------CONTACTO------------------------------------------------ -->
+<section class="contacto">
+    <div class="contacto-content">
+        <div class="left">
+            <div class="contacto-info">
+                <h1 class="maps-titulo"><a name="contacto">Encuéntranos en Google Maps</a></h1>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4954521202694!2d-104.88117424942146!3d21.527474085660362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737a5354c7f31%3A0x2cdcdc51d9bb0469!2sC%C3%A1scara%20de%20Nuez%2019%2C%20Los%20Viveros%2C%2063037%20Tepic%2C%20Nay.!5e0!3m2!1ses-419!2smx!4v1620357137536!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        <div class="right">
+            
+            <div class="contacto-form">
+                <form class="form" action="insertregistros.php" method="POST">
+                    <h1 class="contacto-heading">¿Quieres vender nuestro producto en tu negocio?</h1>
+                        <div class="form-group">
+                            <input name="nombre" type="text" class="input" id="nombre" placeholder="Nombre..." required>
+                            <label for="Nombre">Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input name="email" type="email" class="input" id="email" placeholder="Correo..." required>
+                            <label for="email">Correo</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensaje" type="text" class="input textarea" id="mensaje" placeholder="Mensaje..." required ></textarea>
+                            <label for="mensaje">Mensaje</label>
+                        </div>
+                        <input type="submit"  class="contacto-btn">
+                            
+                            
+                      <!---  <a href='TresHermanos/indexTresHermanos.html'><input type="submit"  class="contacto-btn"></a>"-->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ---------------------------------------------ENLACES------------------------------------------------ -->
+<section class="enlaces">
+    <div class="container-all"></div>
+        <div class="container-body">
+                <div class="columna1">
+                    <h1><a name="acerca">Acerca de nosotros</a></h1>
+                        <p>La máxima expresión de la experiencia que combina destilados perfectamente añejados son utilizados en Los Tres Hermanos. Compártelo con amigos y familiares, consume directamente nuestros productos o disfrútalo en cocteles. </p>
+                </div>
+
+                <div class="columna2">
+                    <h1>Redes Sociales</h1>
+                    <div class="row">
+                        <a href="https://www.facebook.com/jose.a.canales.31"><img src="f3.png"></a>
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.instagram.com/"><img src="i2.png"></a>
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                </div>
+
+                <div class="columna3">
+                    <h1>Información</h1>
+                    <div class="row2">
+                        <img src="u3.png">
+                        <label>Cáscara de Nuez 19, Los Viveros, 63037 Tepic, Nay.</label>
+                    </div>
+                    <div class="row2">
+                        <img src="c.png">
+                        <label >Casa: 3112613694</label>
+                    </div>
+                    <div class="row2">
+                        <img src="w.png">
+                        <label >Celular: 3112613694</label>
+                    </div>
+                    <div class="row2">
+                        <img src="g.png">
+                        <label >treshermanosmezcal@gmail.com</label>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- SCRIPTS -->
+
+</body>
+</html>
+
